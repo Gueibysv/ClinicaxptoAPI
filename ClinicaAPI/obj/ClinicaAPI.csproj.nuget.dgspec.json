@@ -1,0 +1,592 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI\\ClinicaAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.DAL\\ClinicaAPI.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.DAL\\ClinicaAPI.DAL.csproj",
+        "projectName": "ClinicaAPI.DAL",
+        "projectPath": "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.DAL\\ClinicaAPI.DAL.csproj",
+        "packagesPath": "C:\\Users\\Gueiby SIlva\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gueiby SIlva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.Model\\ClinicaAPI.Model.csproj": {
+                "projectPath": "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.Model\\ClinicaAPI.Model.csproj"
+              },
+              "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.Shared\\ClinicaAPI.Shared.csproj": {
+                "projectPath": "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.Shared\\ClinicaAPI.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.13.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.DTO\\ClinicaAPI.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.DTO\\ClinicaAPI.DTO.csproj",
+        "projectName": "ClinicaAPI.DTO",
+        "projectPath": "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.DTO\\ClinicaAPI.DTO.csproj",
+        "packagesPath": "C:\\Users\\Gueiby SIlva\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gueiby SIlva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.Model\\ClinicaAPI.Model.csproj": {
+                "projectPath": "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.Model\\ClinicaAPI.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.13.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.Model\\ClinicaAPI.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.Model\\ClinicaAPI.Model.csproj",
+        "projectName": "ClinicaAPI.Model",
+        "projectPath": "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.Model\\ClinicaAPI.Model.csproj",
+        "packagesPath": "C:\\Users\\Gueiby SIlva\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gueiby SIlva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.13.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.Services\\ClinicaAPI.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.Services\\ClinicaAPI.Services.csproj",
+        "projectName": "ClinicaAPI.Services",
+        "projectPath": "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.Services\\ClinicaAPI.Services.csproj",
+        "packagesPath": "C:\\Users\\Gueiby SIlva\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gueiby SIlva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.DAL\\ClinicaAPI.DAL.csproj": {
+                "projectPath": "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.DAL\\ClinicaAPI.DAL.csproj"
+              },
+              "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.Shared\\ClinicaAPI.Shared.csproj": {
+                "projectPath": "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.Shared\\ClinicaAPI.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.13.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.Shared\\ClinicaAPI.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.Shared\\ClinicaAPI.Shared.csproj",
+        "projectName": "ClinicaAPI.Shared",
+        "projectPath": "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.Shared\\ClinicaAPI.Shared.csproj",
+        "packagesPath": "C:\\Users\\Gueiby SIlva\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gueiby SIlva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.DTO\\ClinicaAPI.DTO.csproj": {
+                "projectPath": "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.DTO\\ClinicaAPI.DTO.csproj"
+              },
+              "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.Model\\ClinicaAPI.Model.csproj": {
+                "projectPath": "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.Model\\ClinicaAPI.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.13.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI\\ClinicaAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI\\ClinicaAPI.csproj",
+        "projectName": "ClinicaAPI",
+        "projectPath": "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI\\ClinicaAPI.csproj",
+        "packagesPath": "C:\\Users\\Gueiby SIlva\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gueiby SIlva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.DAL\\ClinicaAPI.DAL.csproj": {
+                "projectPath": "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.DAL\\ClinicaAPI.DAL.csproj"
+              },
+              "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.DTO\\ClinicaAPI.DTO.csproj": {
+                "projectPath": "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.DTO\\ClinicaAPI.DTO.csproj"
+              },
+              "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.Model\\ClinicaAPI.Model.csproj": {
+                "projectPath": "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.Model\\ClinicaAPI.Model.csproj"
+              },
+              "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.Services\\ClinicaAPI.Services.csproj": {
+                "projectPath": "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.Services\\ClinicaAPI.Services.csproj"
+              },
+              "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.Shared\\ClinicaAPI.Shared.csproj": {
+                "projectPath": "C:\\Users\\Gueiby SIlva\\Desktop\\ProjetoFinal-20212634\\ProjetoFinal-20212634\\ClinicaAPI\\ClinicaAPI.Shared\\ClinicaAPI.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.13.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

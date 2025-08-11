@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ClinicaAPI",
+    "\\ClinicaAPI.DAL",
+    "\\ClinicaAPI.DAL\\Helper",
+    "\\ClinicaAPI.DTO",
+    "\\ClinicaAPI.DTO\\Utente",
+    "\\ClinicaAPI.Model",
+    "\\ClinicaAPI.Services",
+    "\\ClinicaAPI.Services\\Implementations",
+    "\\ClinicaAPI.Shared",
+    "\\ClinicaAPI\\Controllers"
+  ],
+  "SelectedNode": "\\ClinicaAPI.Model\\SubsistemaSaude.cs",
+  "PreviewInSolutionExplorer": false
+}
